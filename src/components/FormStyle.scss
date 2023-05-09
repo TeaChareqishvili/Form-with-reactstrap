@@ -1,0 +1,46 @@
+
+.formWrapper{
+   display:grid;
+   grid-template-columns: 1fr 2fr;
+ 
+}
+
+.welcomeCard{
+  background-color: #f55951;
+  padding:30px 40px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style:italic;
+  color:#f1e8e6;
+
+  h1{
+    font-size:2rem;
+    font-weight:bold;
+  }
+  p{
+    font-size:1.5rem;
+    letter-spacing: 1.2px;
+  }
+}
+
+.form{
+    background-color:#f1e8e6;
+    padding:30px;
+}
+
+h3{
+    text-align: center;
+    color: #f55951;
+    padding-bottom:15px;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.label{
+   color:#f55951;
+   font-size:1rem;
+   font-weight:bold;
+}
+
